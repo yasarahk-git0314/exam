@@ -8,4 +8,3 @@ expected csv file should exist in ../data/destination/ after the execution is co
 if __name__ == '__main__':
     """Entrypoint"""
     print("Beginning the ETL process...")
-    # Good luck! Begin!
