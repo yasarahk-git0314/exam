@@ -8,7 +8,8 @@
 - Make your own copy of this repo on GitHub.
 >I would recommend not forking the repository... unless you want the possibility of another candidate to get some great ideas from your solution, as a forked solution will be directly linked to this on GitHub. :)
 - Write a program that shall use `src/main.py` as the entrypoint.
-- The program shall take the data from both files, transform the data into a single __CSV__ file with both header row and data in a __comma-separated format__, and finally loads it into `/data/destination` by using the `load_csv()` method in `SomeStorageLibrary` located in `src/some_storage_library.py`.
+- The program shall take the data from both files, transform the data into a single __CSV__ file with both header row and data in a __comma-separated format__
+- The program shall load the newly generated __CSV__ file into `/data/destination` by using the `load_csv()` method in `SomeStorageLibrary` located in `src/some_storage_library.py`.
 - Provide a link to your solution when you are complete.
 
 > Note: I will simply be executing `python main.py` with the `src/` directory as the current working directory. Whatever happens after that is up to you- just make sure the `.csv` you create exists in `data/destination/` after this runs.
