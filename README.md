@@ -13,5 +13,4 @@
 
 > Note: I will simply be executing `python main.py` with the `src/` directory as the current working directory. Whatever happens after that is up to you- just make sure the `.csv` you create exists in `data/destination/` after this runs.
 
-> Note: use Python >= 3.7 to solve and do not use any other packages or dependencies (e.g. Pandas). The goal is to show us your coding style
-and see how you would approach the problem using plain Python. 
+> Note: use Python >= 3.7 to solve and do not use any other packages or dependencies (e.g. Pandas). You are limited to the Python Standard Library. The goal is to show us your coding style and see how you would approach the problem using plain Python.
