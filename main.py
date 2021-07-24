@@ -4,10 +4,11 @@ expected csv file should exist in ../data/destination/ after the execution is co
 """
 
 
-
+from src.some_storage_library import SomeStorageLibrary
 if __name__ == '__main__':
     """Entrypoint"""
     print('Beginning the ETL process...')
+    obj = SomeStorageLibrary()
     with open('data/SOURCE/SOURCECOLUMNS.txt') as f:
         columns = [column.rstrip().split('|') for column in f]
     with open('data/SOURCE/SOURCEDATA.txt') as f:
